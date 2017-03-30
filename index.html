@@ -1,5 +1,62 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-<title>我的博客<\title>
-欢迎来我家
-<\html>
+<head>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.6/marked.js">
+    
+  </script>
+  <link rel="stylesheet" href="http://typo.sofi.sh/typo.css">
+  <style>
+    body{
+      padding:16px;
+    }
+    .pic{
+      max-width:100%;
+      margin-top:30px;
+    }
+  </style>
+</head>
+<body>
+  <div id="content">
+# 令人胃口大开的酱香鸡腿饭，内含三步去鸡骨小妙招
+
+##### 标签： 美食  
+##### 分类： 营养 健康
+    
+### 主料：大米80g 鸡腿3个 鸡蛋1个 胡萝卜30g 小油菜 10g 西兰花10g
+### 配料：料酒8g 胡椒粉1g 生抽6g 油 6g 蚝油5g蜂蜜8g 蒜粒 2g 白酒 20g 水淀粉 20g 番茄酱10g 盐2g
+   </div>
+    <img src="http://wx4.sinaimg.cn/large/54e09370ly1fe3iguuuquj21kw294nog.jpg" alt="西餐" class="pic"><br>
+   我平时最喜欢吃米饭了，总是对各种各样的盖饭亳无抵抗力，有时候在外面点一份饭，价格贵不说，味道也不好，真不如自己在家做。自己选择的食材，都是自己喜欢的，而且也是高品质的，所以做出来更加好吃。<br>
+   这次用了没想稻五常大米，口感真不错，水即使加多了焖出来也不是软塌塌的，为了好看我没有把锅里的酱汁浇完，一定要把锅里的酱与米饭拌匀，搭配鲜嫩的鸡肉才是绝配！<br>
+    <img src="http://wx2.sinaimg.cn/large/54e09370ly1fe3ih8zj8jj21kw0ysh8o.jpg" alt="pic"><br>
+    <img src="http://wx2.sinaimg.cn/large/54e09370ly1fe3ihkouopj21kw0skx1t.jpg" alt="pic"><br>
+1.大米漂洗两遍后，浸泡20分钟。<br>
+2.吸饱了水分的米粒，表面的直链淀粉软化，米饭口感会更好！<br>
+3.上锅蒸25分钟。顺便再将一个鸡蛋放入，一起蒸熟。<br>
+  <img src="http://wx1.sinaimg.cn/large/54e09370ly1fe3ihl98iwj21kw0skx4b.jpg" alt="pic"><br>
+4.将鸡腿去骨。<br>
+5.加入料酒、生抽、胡椒粉、盐腌制半小时。<br>
+6.锅里倒入油，放入鸡肉，两面煎至变色。<br>
+  <img src="http://wx2.sinaimg.cn/large/54e09370ly1fe3ihk4k30j21kw0skh4c.jpg" alt="pic"><br>
+7.另调好酱汁，蚝油、蜂蜜、生抽、蒜粒、白酒混合，倒入锅中炖几分钟。<br>
+8.最后用水淀粉勾芡一下，让汤汁浓稠。<br>
+9.出锅前挤入番茄酱。<br>
+  <img src="http://wx3.sinaimg.cn/large/54e09370ly1fe3ihlpoz5j21kw0sgdzd.jpg" alt="pic"><br>
+10.另用奶锅，水里加入盐，将胡萝卜、小油菜、西兰花煮熟。<br>
+11.最后摆盘，成品很赞哦！<br>
+  <img src="http://wx3.sinaimg.cn/large/54e09370ly1fe3ij4llnzj21kw2dnqun.jpg" alt="pic"><br>
+  
+**小窍门**<br>
+1.想要米饭最后成什么样子的形状，就要一开始选择好容器，用普通碗蒸出来就是半圆形状。<br>
+2.鸡腿在腌制时就加了盐，后面的酱汁里也含有盐，所以烹饪中不要另外放盐。但煮菜的时候要放盐，不然菜出来没味。<br>
+  <script>
+    var contented = document.getElementById('content')
+    var markdown = contented.innerHTML
+    var html=marked(markdown)
+    contented.innerHTML=html
+
+  </script>
+</body>
+</html>
